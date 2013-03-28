@@ -4,6 +4,7 @@ Linux Support for Apple Aluminium Keyboards
 
 Copyright © 2009-2011 Damien Ciabrini - damien.ciabrini@gmail.com
 
+Copyright © 2013 Krzysztof T. Krzyżanowski - krzysztof.t.krzyzanowski@gmail.com
 
 Overview
 ========
