@@ -5,6 +5,10 @@ keyboard:usb:v05ACp024F*
 keyboard:usb:v05ACp0250*
 keyboard:usb:v05ACp0251*
  KEYBOARD_KEY_ff0003=insert
+ KEYBOARD_KEY_700e2=leftmeta
+ KEYBOARD_KEY_700e3=leftalt
+ KEYBOARD_KEY_700e6=rightmeta
+ KEYBOARD_KEY_700e7=rightalt
  KEYBOARD_KEY_70068=sysrq
  KEYBOARD_KEY_70069=scrolllock
  KEYBOARD_KEY_7006a=pause

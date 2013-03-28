@@ -61,6 +61,7 @@ settings currently available are:
 
    * Emulate PC keys (Print, Scroll Lock, Pause)
    * Make the "fn" key generate an "Insert" scancode
+   * Swap Alt and Cmd keys to emulate PC keyboard layout
    * Choose the behaviour of keys F1 to F12 (multimedia vs functions)
 
 Those settings can be deactivated by commenting the relevant lines in
