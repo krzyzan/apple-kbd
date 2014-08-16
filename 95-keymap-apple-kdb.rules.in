@@ -11,7 +11,7 @@ SUBSYSTEM!="input", GOTO="apple_kbd_end"
 KERNEL!="event[0-9]*", GOTO="apple_kbd_end"
 
 ENV{ID_VENDOR_ID}!="05ac", GOTO="apple_kbd_end"
-ENV{ID_INPUT_KEYBOARD}!=1, GOTO="apple_kbd_end"
+ENV{ID_INPUT_KEYBOARD}!="1", GOTO="apple_kbd_end"
 
 ENV{ID_MODEL_ID}!="022[0-2]|024f|025[0-1]", GOTO="apple_kbd_end"
 ENV{ID_MODEL_ID}=="0220", ENV{XKBMODEL}="applealu_ansi"
