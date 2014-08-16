@@ -59,7 +59,7 @@ The configuration file apple-kbd contains a detailed description of the
 options you can set to customize the behaviour of your keyboard. The
 settings currently available are:
 
-   * Emulate PC keys (Print, Scroll Lock, Pause, Num Lock)
+   * Emulate PC keys (Print, Scroll Lock, Pause)
    * Make the "fn" key generate an "Insert" scancode
    * Choose the behaviour of keys F1 to F12 (multimedia vs functions)
 

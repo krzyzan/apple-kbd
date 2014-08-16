@@ -24,11 +24,6 @@ ENV{ID_MODEL_ID}=="0251", ENV{XKBMODEL}="applealu_jis"
 
 ACTION=="add|change", IMPORT{program}="/bin/grep ^apple_kbd_ @CONFIGDIR@/apple-kbd"
 
-# commented until the fn key is known by udev
-# ENV{apple_kbd_ALUKBD_FN_AS_INS}!="1", RUN+="keymap $env{DEVNAME} 0xff0003 464"
-ENV{apple_kbd_ALUKBD_FN_AS_INS}=="1", RUN+="keymap $env{DEVNAME} 0xff0003 insert"
-ENV{apple_kbd_ALUKBD_XKB_PC_KEYS}=="1", ENV{XKBOPTIONS}="apple:alupckeys,$env{XKBOPTIONS}"
-ENV{apple_kbd_ALUKBD_XKB_PC_KEYS}=="1", IMPORT{program}="/bin/sh -c 'echo XKBOPTIONS=$${XKBOPTIONS%,}'"
 ENV{apple_kbd_ALUKBD_KMOD_FNMODE}=="[012]", RUN+="/bin/sh -c 'echo $env{apple_kbd_ALUKBD_KMOD_FNMODE} > /sys/module/hid_apple/parameters/fnmode'"
 
 LABEL="apple_kbd_end"
