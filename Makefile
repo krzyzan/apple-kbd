@@ -12,8 +12,8 @@ install:
 	install -m 644 95-keymap-apple-kdb.rules $(RULESDIR)
 
 uninstall:
-	-rm -f -m 644 apple-kbd $(CONFIGDIR)
-	-rm -f -m 644 95-keymap-apple-kdb.rules $(RULESDIR)
+	-rm -f $(CONFIGDIR)/apple-kbd
+	-rm -f $(RULESDIR)/95-keymap-apple-kdb.rules
 
 clean:
 	-rm -f 95-keymap-apple-kdb.rules *~
